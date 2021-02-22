@@ -1,804 +1,804 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>SAS Factory Miner - Results</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="css/factory.css" rel="stylesheet">
-<!--[if lt IE 9]><script src="js/html5shiv.js"></script><script src="js/respond.min.js"></script><![endif]-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SAS Factory Miner - Results</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/factory.css" rel="stylesheet">
+  <!--[if lt IE 9]><script src="js/html5shiv.js"></script><script src="js/respond.min.js"></script><![endif]-->
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-<ul class="nav navbar-nav">
-<li><a href="index.html">SAS Factory Miner</a></li>
-</ul>
-<ul class="nav navbar-nav navbar-right">
-<li><a href="#"><i class="fa fa-search"></i></a></li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-success">4</span></a>
-  <ul class="dropdown-menu pull-right">
-  <li><a href="#">Josephine Holt added College Scorecard.<div class="text-muted">18 minutes ago</div></a></li>
-  <li class="divider"></li>
-  <li><a href="#">Jason Moreno joined.<div class="text-muted">18 minutes ago</div></a></li>
-  <li class="divider"></li>
-  <li><a href="#">Attrition Stem finished running.<div class="text-muted">12 hours ago</div></a></li>
-  <li class="divider"></li>
-  <li><a href="#">Segment ID failed.<div class="text-muted">2 days ago</div></a></li>
-  <li class="divider"></li>
-  <li style="padding: 10px;"><button class="btn btn-default btn-block">Mark All as Read</button></li>
-  </ul>
-</li>
-<li class="dropdown" style="margin-top: -4px;">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/ok/24.jpg" alt="" class="img-circle"></a>
-  <ul class="dropdown-menu pull-right">
-  <li><a href="#">Profile</a></li>
-  <li><a href="#">Settings</a></li>
-  <li class="divider"></li>
-  <li><a href="#">Sign Out</a></li>
-  </ul>
-</li>
-</ul>
-</nav>
-<div class="secondbar">
-  <div class="pull-right">
-    <div class="btn-group">
-    <a href="#" class="btn btn-link"><i class="fa fa-undo"></i></a>
-    <a href="#" class="btn btn-link"><i class="fa fa-undo fa-flip-horizontal"></i></a>
-    <a href="#" class="btn btn-link"><i class="fa fa-save"></i></a>
-    </div>
-  </div>
-<ol class="breadcrumb">
-<li><a href="index.html" class="bcbar"><i class="fa fa-arrow-left"></i></a></li>
-<li class="active">Attrition Stem</li>
-</ol>
-</div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-    <ul class="tabs">
-    <li><a href="data.html">Data <span class="label label-success"><i class="fa fa-check"></i></span></a></li>
-    <li><a href="profile.html">Profile <span class="label label-warning"><i class="fa fa-warning"></i></span></a></li>
-    <li><a href="templates.html">Model Templates</a></li>
-    <li class="active"><a href="results.html">Results</a></li>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">SAS Factory Miner</a></li>
     </ul>
-    <hr class="tabbreak">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="toggle pull-right"><div class="btn-group"><a href="#" class="btn btn-default" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Expand"><i class="fa fa-expand"></i></a></div></div>
-            <div class="panel-heading">Variable Frequency</div>
-            <div class="panel-body">
-              <div id="chart_chart04" style="width: 100%; height: 375px;"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="toggle pull-right"><div class="btn-group"><a href="#" class="btn btn-default" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Expand"><i class="fa fa-expand"></i></a></div></div>
-            <div class="panel-heading">
-              <div class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lift <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-              <li><a href="#">Cumulative Lift</a></li>
-              <li><a href="#">Kolmogorov-Smirnov</a></li>
-              <li><a href="#">Lift</a></li>
-              <li><a href="#">Misclassification</a></li>
-              <li><a href="#">ROC</a></li>
-              </ul>
-              </div>
-            </div>
-            <div class="panel-body">
-              <div id="chart_chart05" style="width: 100%; height: 375px;"></div>
-            </div>
-          </div>
-        </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><i class="fa fa-search"></i></a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-success">4</span></a>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">Josephine Holt added College Scorecard.<div class="text-muted">18 minutes ago</div></a></li>
+          <li class="divider"></li>
+          <li><a href="#">Jason Moreno joined.<div class="text-muted">18 minutes ago</div></a></li>
+          <li class="divider"></li>
+          <li><a href="#">Attrition Stem finished running.<div class="text-muted">12 hours ago</div></a></li>
+          <li class="divider"></li>
+          <li><a href="#">Segment ID failed.<div class="text-muted">2 days ago</div></a></li>
+          <li class="divider"></li>
+          <li style="padding: 10px;"><button class="btn btn-default btn-block">Mark All as Read</button></li>
+        </ul>
+      </li>
+      <li class="dropdown" style="margin-top: -2px;">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="https://randomuser.me/api/portraits/lego/1.jpg" alt="" class="img-circle" style="margin-left: -12px; width: 24px;"></a>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Settings</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Sign Out</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="secondbar">
+    <div class="pull-right">
+      <div class="btn-group">
+        <a href="#" class="btn btn-link"><i class="fa fa-undo"></i></a>
+        <a href="#" class="btn btn-link"><i class="fa fa-undo fa-flip-horizontal"></i></a>
+        <a href="#" class="btn btn-link"><i class="fa fa-save"></i></a>
       </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="panel panel-default">
-            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" href="#panel2">Status</a></div>
-            <div id="panel2" class="collapsed in">
+    </div>
+    <ol class="breadcrumb">
+      <li><a href="index.html" class="bcbar"><i class="fa fa-arrow-left"></i></a></li>
+      <li class="active">Attrition Stem</li>
+    </ol>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="tabs">
+          <li><a href="data.html">Data <span class="label label-success"><i class="fa fa-check"></i></span></a></li>
+          <li><a href="profile.html">Profile <span class="label label-warning"><i class="fa fa-warning"></i></span></a></li>
+          <li><a href="templates.html">Model Templates</a></li>
+          <li class="active"><a href="results.html">Results</a></li>
+        </ul>
+        <hr class="tabbreak">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="toggle pull-right"><div class="btn-group"><a href="#" class="btn btn-default" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Expand"><i class="fa fa-expand"></i></a></div></div>
+              <div class="panel-heading">Variable Frequency</div>
               <div class="panel-body">
-                <div class="checkbox">
-                <label>
-                <input type="checkbox"> All
-                </label>
-                </div>
-                <div class="checkbox">
-                <label>
-                <input type="checkbox" checked> Complete
-                </label>
-                </div>
-                <div class="checkbox">
-                <label>
-                <input type="checkbox"> Error
-                </label>
-                </div>
-                <div class="checkbox">
-                <label>
-                <input type="checkbox"> Running
-                </label>
-                </div>
+                <div id="chart_chart04" style="width: 100%; height: 375px;"></div>
               </div>
             </div>
           </div>
-          <div class="panel panel-default">
-            <div class="toggle pull-right"><div class="btn-group"><a href="#" class="btn btn-link">Reset</a></div></div>
-            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" href="#panel3">Observations (Train)</a></div>
-            <div id="panel3" class="collapsed in">
-              <div class="panel-body"><input id="ex1" type="text" value="" data-slider-min="0" data-slider-max="10000" data-slider-step="1" data-slider-value="[1000]" style="width: 100%;"/></div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="toggle pull-right"><div class="btn-group"><a href="#" class="btn btn-link">Reset</a></div></div>
-            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" href="#panel4">Lift</a></div>
-            <div id="panel4" class="collapse in">
-              <div class="panel-body"><input id="ex2" type="text" value="" style="width: 100%;"/></div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="toggle pull-right"><div class="btn-group"><a href="#" class="btn btn-default" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Expand"><i class="fa fa-expand"></i></a></div></div>
+              <div class="panel-heading">
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lift <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Cumulative Lift</a></li>
+                    <li><a href="#">Kolmogorov-Smirnov</a></li>
+                    <li><a href="#">Lift</a></li>
+                    <li><a href="#">Misclassification</a></li>
+                    <li><a href="#">ROC</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="panel-body">
+                <div id="chart_chart05" style="width: 100%; height: 375px;"></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-9">
-          <div class="row">
-            <div class="col-md-3 col-xs-6"><input type="text" class="form-control" placeholder="Filter"></div>
-            <div class="col-md-9 col-xs-6">
-              <div class="pull-right">
-              <a class="btn btn-success" href="#">Run</a>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" href="#panel2">Status</a></div>
+              <div id="panel2" class="collapsed in">
+                <div class="panel-body">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> All
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" checked> Complete
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Error
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Running
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="toggle pull-right"><div class="btn-group"><a href="#" class="btn btn-link">Reset</a></div></div>
+              <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" href="#panel3">Observations (Train)</a></div>
+              <div id="panel3" class="collapsed in">
+                <div class="panel-body"><input id="ex1" type="text" value="" data-slider-min="0" data-slider-max="10000" data-slider-step="1" data-slider-value="[1000]" style="width: 100%;"/></div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="toggle pull-right"><div class="btn-group"><a href="#" class="btn btn-link">Reset</a></div></div>
+              <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" href="#panel4">Lift</a></div>
+              <div id="panel4" class="collapse in">
+                <div class="panel-body"><input id="ex2" type="text" value="" style="width: 100%;"/></div>
               </div>
             </div>
           </div>
-          <div class="clearfix"></div>
-          <div class="table-responsive">
-          <table class="table table-bordered table-hover">
-          <thead>
-          <tr>
-          <th></th>
-          <th>Segment ID</th>
-          <th>Segment (Job)</th>
-          <th>Champion</th>
-          <th>Lift</th>
-          <th>Override</th>
-          <th>Observations</th>
-          <th><i class="fa fa-check-square" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Complete"></i></th>
-          <th><i class="fa fa-times-circle" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Error"></i></th>
-          <th><i class="fa fa-spinner fa-pulse" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Running"></i></th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Other</td>
-          <td>Regression</td>
-          <td>1.8</td>
-          <td>Yes</td>
-          <td>8621</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>752</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr class="active">
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Self</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>452</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Other</td>
-          <td>Regression</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>8621</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Random Forest</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>862</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Other</td>
-          <td>GLM</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>854</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>SVM</td>
-          <td>1.8</td>
-          <td>Yes</td>
-          <td>553</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Regression</td>
-          <td>1.9</td>
-          <td>Yes</td>
-          <td>442</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Regression</td>
-          <td>1.7</td>
-          <td>Yes</td>
-          <td>422</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Other</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>Yes</td>
-          <td>267</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Other</td>
-          <td>SVM</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>28</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Self</td>
-          <td>GLM</td>
-          <td>1.5</td>
-          <td>No</td>
-          <td>355</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Sales</td>
-          <td>Decision Tree</td>
-          <td>1.6</td>
-          <td>Yes</td>
-          <td>266</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>284</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Regression</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>5582</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>852</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>SVM</td>
-          <td>1.4</td>
-          <td>No</td>
-          <td>265</td>
-          <td>8</td>
-          <td>0</td>
-          <td>0</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>GLM</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>882</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>482</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Random Forest</td>
-          <td>1.5</td>
-          <td>No</td>
-          <td>2589</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Other</td>
-          <td>Regression</td>
-          <td>1.8</td>
-          <td>Yes</td>
-          <td>994</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>702</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>2579</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Regression</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>245</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Regression</td>
-          <td>1.9</td>
-          <td>Yes</td>
-          <td>3762</td>
-          <td>8</td>
-          <td>0</td>
-          <td>0</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Regression</td>
-          <td>1.7</td>
-          <td>Yes</td>
-          <td>462</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Random Forest</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>772</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>GLM</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>3444</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>SVM</td>
-          <td>1.8</td>
-          <td>Yes</td>
-          <td>373</td>
-          <td>8</td>
-          <td>0</td>
-          <td>0</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>432</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>SVM</td>
-          <td>1.4</td>
-          <td>No</td>
-          <td>277</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>GLM</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>3472</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Regression</td>
-          <td>1.9</td>
-          <td>Yes</td>
-          <td>342</td>
-          <td>8</td>
-          <td>0</td>
-          <td>0</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Regression</td>
-          <td>1.9</td>
-          <td>Yes</td>
-          <td>552</td>
-          <td>8</td>
-          <td>0</td>
-          <td>0</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Sales</td>
-          <td>Regression</td>
-          <td>1.7</td>
-          <td>Yes</td>
-          <td>280</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Self</td>
-          <td>Regression</td>
-          <td>1.7</td>
-          <td>Yes</td>
-          <td>592</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>Yes</td>
-          <td>9672</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>SVM</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>296</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Sales</td>
-          <td>Regression</td>
-          <td>1.9</td>
-          <td>Yes</td>
-          <td>52</td>
-          <td>8</td>
-          <td>0</td>
-          <td>0</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Regression</td>
-          <td>1.7</td>
-          <td>Yes</td>
-          <td>259</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>GLM</td>
-          <td>1.5</td>
-          <td>No</td>
-          <td>344</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Decision Tree</td>
-          <td>1.6</td>
-          <td>Yes</td>
-          <td>962</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Self</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>382</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>Regression</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>264</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Self</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>256</td>
-          <td>8</td>
-          <td>0</td>
-          <td>0</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>SVM</td>
-          <td>1.4</td>
-          <td>No</td>
-          <td>462</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>ProfExe</td>
-          <td>GLM</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>233</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Sales</td>
-          <td>Regression</td>
-          <td>1.9</td>
-          <td>Yes</td>
-          <td>462</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Sales</td>
-          <td>Regression</td>
-          <td>1.7</td>
-          <td>Yes</td>
-          <td>262</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Decision Tree</td>
-          <td>1.8</td>
-          <td>No</td>
-          <td>244</td>
-          <td>8</td>
-          <td>0</td>
-          <td>1</td>
-          </tr>
-          <tr>
-          <td style="text-align: center;"><input type="checkbox"></td>
-          <td><a href="train.html">Segment ID</a></td>
-          <td>Office</td>
-          <td>Random Forest</td>
-          <td>1.5</td>
-          <td>No</td>
-          <td>262</td>
-          <td>8</td>
-          <td>0</td>
-          <td>0</td>
-          </tr>
-          </tbody>
-          </table>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-3 col-xs-6"><input type="text" class="form-control" placeholder="Filter"></div>
+              <div class="col-md-9 col-xs-6">
+                <div class="pull-right">
+                  <a class="btn btn-success" href="#">Run</a>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="table-responsive">
+              <table class="table table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Segment ID</th>
+                    <th>Segment (Job)</th>
+                    <th>Champion</th>
+                    <th>Lift</th>
+                    <th>Override</th>
+                    <th>Observations</th>
+                    <th><i class="fa fa-check-square" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Complete"></i></th>
+                    <th><i class="fa fa-times-circle" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Error"></i></th>
+                    <th><i class="fa fa-spinner fa-pulse" data-tooltip="tooltip" data-placement="top" title="" data-original-title="Running"></i></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Other</td>
+                    <td>Regression</td>
+                    <td>1.8</td>
+                    <td>Yes</td>
+                    <td>8621</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>752</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr class="active">
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Self</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>452</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Other</td>
+                    <td>Regression</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>8621</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Random Forest</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>862</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Other</td>
+                    <td>GLM</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>854</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>SVM</td>
+                    <td>1.8</td>
+                    <td>Yes</td>
+                    <td>553</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Regression</td>
+                    <td>1.9</td>
+                    <td>Yes</td>
+                    <td>442</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Regression</td>
+                    <td>1.7</td>
+                    <td>Yes</td>
+                    <td>422</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Other</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>Yes</td>
+                    <td>267</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Other</td>
+                    <td>SVM</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>28</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Self</td>
+                    <td>GLM</td>
+                    <td>1.5</td>
+                    <td>No</td>
+                    <td>355</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Sales</td>
+                    <td>Decision Tree</td>
+                    <td>1.6</td>
+                    <td>Yes</td>
+                    <td>266</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>284</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Regression</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>5582</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>852</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>SVM</td>
+                    <td>1.4</td>
+                    <td>No</td>
+                    <td>265</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>GLM</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>882</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>482</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Random Forest</td>
+                    <td>1.5</td>
+                    <td>No</td>
+                    <td>2589</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Other</td>
+                    <td>Regression</td>
+                    <td>1.8</td>
+                    <td>Yes</td>
+                    <td>994</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>702</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>2579</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Regression</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>245</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Regression</td>
+                    <td>1.9</td>
+                    <td>Yes</td>
+                    <td>3762</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Regression</td>
+                    <td>1.7</td>
+                    <td>Yes</td>
+                    <td>462</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Random Forest</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>772</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>GLM</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>3444</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>SVM</td>
+                    <td>1.8</td>
+                    <td>Yes</td>
+                    <td>373</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>432</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>SVM</td>
+                    <td>1.4</td>
+                    <td>No</td>
+                    <td>277</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>GLM</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>3472</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Regression</td>
+                    <td>1.9</td>
+                    <td>Yes</td>
+                    <td>342</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Regression</td>
+                    <td>1.9</td>
+                    <td>Yes</td>
+                    <td>552</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Sales</td>
+                    <td>Regression</td>
+                    <td>1.7</td>
+                    <td>Yes</td>
+                    <td>280</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Self</td>
+                    <td>Regression</td>
+                    <td>1.7</td>
+                    <td>Yes</td>
+                    <td>592</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>Yes</td>
+                    <td>9672</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>SVM</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>296</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Sales</td>
+                    <td>Regression</td>
+                    <td>1.9</td>
+                    <td>Yes</td>
+                    <td>52</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Regression</td>
+                    <td>1.7</td>
+                    <td>Yes</td>
+                    <td>259</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>GLM</td>
+                    <td>1.5</td>
+                    <td>No</td>
+                    <td>344</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Decision Tree</td>
+                    <td>1.6</td>
+                    <td>Yes</td>
+                    <td>962</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Self</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>382</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>Regression</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>264</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Self</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>256</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>SVM</td>
+                    <td>1.4</td>
+                    <td>No</td>
+                    <td>462</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>ProfExe</td>
+                    <td>GLM</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>233</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Sales</td>
+                    <td>Regression</td>
+                    <td>1.9</td>
+                    <td>Yes</td>
+                    <td>462</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Sales</td>
+                    <td>Regression</td>
+                    <td>1.7</td>
+                    <td>Yes</td>
+                    <td>262</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Decision Tree</td>
+                    <td>1.8</td>
+                    <td>No</td>
+                    <td>244</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center;"><input type="checkbox"></td>
+                    <td><a href="train.html">Segment ID</a></td>
+                    <td>Office</td>
+                    <td>Random Forest</td>
+                    <td>1.5</td>
+                    <td>No</td>
+                    <td>262</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="js/bootstrap-slider.js"></script>
-<script src="js/amcharts.js"></script>
-<script src="js/serial.js"></script>
-<script src="js/xy.js"></script>
-<script src="js/chart_chart04.js"></script>
-<script src="js/chart_chart05.js"></script>
-<script> $(document).ready(function() { $('body').tooltip({ selector: "[data-tooltip=tooltip]", container: "body" }); }); </script>
-<script> $(document).ready(function() { $("#ex1").slider({}); }); </script>
-<script> $(document).ready(function(){$("#ex2").slider({min:0,max:10,step:.1,value:[1,4],formater:function(e){var n=e.toString(),r=n.indexOf(".");return 0>r?n+=".0":(0===r&&(n="0"+n,++r),n=n.substr(0,r+2)),n}})}); </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-slider.js"></script>
+  <script src="js/amcharts.js"></script>
+  <script src="js/serial.js"></script>
+  <script src="js/xy.js"></script>
+  <script src="js/chart_chart04.js"></script>
+  <script src="js/chart_chart05.js"></script>
+  <script> $(document).ready(function() { $('body').tooltip({ selector: "[data-tooltip=tooltip]", container: "body" }); }); </script>
+  <script> $(document).ready(function() { $("#ex1").slider({}); }); </script>
+  <script> $(document).ready(function(){$("#ex2").slider({min:0,max:10,step:.1,value:[1,4],formater:function(e){var n=e.toString(),r=n.indexOf(".");return 0>r?n+=".0":(0===r&&(n="0"+n,++r),n=n.substr(0,r+2)),n}})}); </script>
 </body>
 </html>
