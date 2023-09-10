@@ -386,5 +386,3 @@
 	$.fn.slider.Constructor = Slider;
 
 }( window.jQuery );
-
-function Reload() { window.location.href = window.location.href } window.onresize = Reload;
